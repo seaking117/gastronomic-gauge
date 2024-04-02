@@ -1,0 +1,82 @@
+.rectangle{
+/* Rectangle 1 */
+
+position: absolute;
+width: 1280px;
+height: 141px;
+left: 0px;
+top: 0px;
+
+background: #0055AA;
+}
+
+/* noun-cornucopia-2010809 1 */
+img{
+
+position: absolute;
+width: 151px;
+height: auto;
+left: 564px;
+top: 7px;
+
+background: url(cornucopia.png);
+
+}
+
+
+/* GASTRONOMIC GAUGE */
+.title{
+    position: absolute;
+    width: 166px;
+    height: 19px;
+    left: 557px;
+    top: 107px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 140% */
+    
+    color: #000000;
+}
+
+.input{
+    /* form/03 component/textField/medium/default */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    position: absolute;
+    width: 365px;
+    height: 42px;
+    left: 457px;
+    top: 192px;
+
+    border: 1px solid rgba(0, 0, 0, 0.94);
+}
+
+.button{
+ /* Input */
+
+ position: absolute;
+ width: 145px;
+ height: 50px;
+ left: 567px;
+ top: 249px;
+
+ background: #0055AA;
+ mix-blend-mode: normal;
+ box-shadow: 0px 20px 35px rgba(5, 170, 83, 0.1);
+ border-radius: 40px;
+
+}
+   
+
