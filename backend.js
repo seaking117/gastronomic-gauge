@@ -26,9 +26,8 @@ const scrapeIngredientsAndCalculateCalories = async () => {
       });
 
       const messages = [
-        { role: "system", content: "You are a helpful assistant." },
         {
-          role: "user",
+          role: "system",
           content: `Calculate the total calorie count of the ingredients in this recipe:${ingredientsText} and return the result as a table in HTML code with the ingredient name, calorie count, and the total calorie count. Respond with just the code and do not include any linebreaks.`
         },
       ];
