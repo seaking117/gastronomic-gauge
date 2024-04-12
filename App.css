@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  padding-top: 2vmin;
+  height: 10vmin;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+.App-header {
+  /* Rectangle 1 */
+
+position: absolute;
+height: 20vh;
+width: 100vw;
+left: 0px;
+top: 0px;
+
+background: #0055AA;
+/*
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.textbox{
+  /* form/03 component/textField/medium/default */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+
+position: absolute;
+width: 40vw;
+height: 5vh;
+left: 30vw;
+top: 30vh;
+
+border: 1px solid rgba(0, 0, 0, 0.94);
+
+}
+
+.buttonBlue{
+
+position: absolute;
+width: 20vw;
+height: 8vh;
+left: 40vw;
+top: 38vh;
+
+background: #0055AA;
+mix-blend-mode: normal;
+border-radius: 40px;
+color: white; 
+}
+/*
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+table {
+  padding-top: 35vh;
+  width: 22vw;
+  padding-left: 39vw;
+   
+  display: none;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
