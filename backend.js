@@ -1,12 +1,9 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import dotenv from 'dotenv';
 import OpenAI from 'openai';
 
-dotenv.config();
-
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: 'YOUR_OPENAI_API_KEY', // Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
 });
 
 const url = 'https://www.simplyrecipes.com/jalapeno-popper-grilled-cheese-sandwich-recipe-7971060';
